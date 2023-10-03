@@ -7,8 +7,8 @@ terraform {
   }
 }
 provider "aws" {
-  access_key="var.accesskey"
-  secret_key= "var.secretkey"
+  access_key="var.Access_key"
+  secret_key= "var.Secret_key"
   region     = "us-east-1"
 }
 resource "aws_instance" "myec2" {
